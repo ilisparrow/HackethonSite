@@ -1,1 +1,1 @@
-var couche = L.geoJson(test).addTo(map); 
+var myLayer = L.geoJson(test).addTo(map);
