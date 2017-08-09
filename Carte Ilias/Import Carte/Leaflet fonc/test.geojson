@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "111111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.055604577064515,
+          36.751186541530565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "labelInteractive": true,
+          "outlink": "ALPHA1",
+          "opacity": "0.2",
+          "dashArray": "12345",
+          "showLabel": false,
+          "labelHover": true
+        },
+        "name": "Bloc B1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.055513381958009,
+              36.751143559579255
+            ],
+            [
+              5.055660903453828,
+              36.751128515890585
+            ],
+            [
+              5.0556179881095895,
+              36.75095228960383
+            ],
+            [
+              5.055475831031799,
+              36.75098237704729
+            ],
+            [
+              5.055513381958009,
+              36.751143559579255
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
