@@ -1,11 +1,8 @@
- 
-  <!-- Create the map content with JavaScript (.js) -->
- // <script>
 
   /* Set up the map with initial center and zoom level */
   var map = L.map('map', {
-    center: [41.77, -72.69], // EDIT latitude, longitude to re-center map
-    zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    center: [36.7508, 5.0560], // EDIT latitude, longitude to re-center map
+    zoom: 16,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
     scrollWheelZoom: false
   });
 
@@ -16,7 +13,7 @@
   // }).addTo(map);
 
   /* Carto light-gray basemap tiles with labels */
-  var light = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+  var light = L.tileLayer('http://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
   }).addTo(map); // EDIT - insert or remove ".addTo(map)" before last semicolon to display by default
   // controlLayers.addBaseLayer(light, 'Carto Light basemap');
@@ -31,6 +28,3 @@
   L.marker([41.77, -72.69]).addTo(map) // EDIT latitude, longitude to re-position marker
   .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
 
-
-
- // </script>
