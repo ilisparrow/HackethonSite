@@ -5,14 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
-  <!-- Load Leaflet: instructions at http://leafletjs.com/download.html -->
+  <!-- Load Leaflet: instructions at http://leafletjs.com/download.html |||||||Necessaire pour chargement carte -->
+    <!-- Chargement fichier leaflet.css en ligne -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css"
   integrity="sha384-Zh+y1U8o6/7ni8Mp8szvUfZjGeKKS10CGH3IlD6L1X+XwzYgQ1llOjw/Wslc0cma"
   crossorigin="anonymous">
+    <!-- chargement du fichier leaflet.js en ligne-->
   <script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"
   integrity="sha384-6rCYjRgWDEI2RlZxiVihj1WIZB/uvFiRCGpavTVgFrSPDL0Bk1AiqCW+mmv5h0LP"
   crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <!-- Chargement fichier GeoJson-->
   <script src="donnee/test.geojson"></script>
 
   <style>  body { margin:0; padding:0; }  #map { position: absolute; top:0; bottom:0; right:0; left:0; }  #map-title { position: relative; margin-top: 10px; margin-left: 50px; float: left; background: white; border: 2px solid rgba(0,0,0,0.2); padding: 6px 8px; font-family: Helvetica; font-weight: bold; font-size: 24px; z-index: 800; }</style>
@@ -24,9 +27,9 @@
   <div id="map-title">Veuillez entrer votre adresse de livraison<br></br>Selectionnez le directement sur la carte</div>
   <div id="map"></div>
   
-  <script src="js/main.js"></script>
-  <script src="js/coucheUne.js"></script>
-  <script src="js/evenement.js"></script>
+  <script src="js/main.js"></script>  <!--Fichier ou est chargée la carte d'openStreetMap, et est effectué son parametrage, zoom etc...)     -->
+  <script src="js/coucheUne.js"></script><!--Rajout de la carte GeoJson a l'affichage HTML     -->
+  <script src="js/evenement.js"></script><!--Gestion d'evenement, et c'est la que sont stocké les variables pour le nom ainsi que les corddonée du point selectionné     -->
   
 
 </body>
