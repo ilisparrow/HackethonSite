@@ -1,0 +1,116 @@
+{
+  "type": "umap",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {},
+    "tilelayer": {},
+    "licence": "",
+    "description": "",
+    "name": "Classement quartier Bejaïa",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 6
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2,
+      51
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {},
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.078129768371583,
+              36.752226697410656
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Quartier Séghir 1 - 001"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  5.055685043334962,
+                  36.75140145092604
+                ],
+                [
+                  5.0576162338256845,
+                  36.75117794514223
+                ],
+                [
+                  5.06422519683838,
+                  36.75109198120587
+                ],
+                [
+                  5.061156749725343,
+                  36.74684524284998
+                ],
+                [
+                  5.059075355529785,
+                  36.74755018329963
+                ],
+                [
+                  5.055427551269532,
+                  36.748065989281855
+                ],
+                [
+                  5.052852630615235,
+                  36.74796282836278
+                ],
+                [
+                  5.053925514221192,
+                  36.74887407834961
+                ],
+                [
+                  5.053925514221192,
+                  36.74887407834961
+                ],
+                [
+                  5.054440498352052,
+                  36.7496649657924
+                ],
+                [
+                  5.054440498352052,
+                  36.7496649657924
+                ],
+                [
+                  5.055685043334962,
+                  36.75140145092604
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "_storage": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Calque 1",
+        "id": 399504
+      }
+    }
+  ]
+}
