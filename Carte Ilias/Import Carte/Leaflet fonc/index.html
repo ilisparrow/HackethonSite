@@ -19,16 +19,6 @@
 </head>
 <body>
 
-	<script>
-		//function quandClique(e){window.alert("youpi");}
-	
-		function onEachFeature(feature, layer) {
-			layer.bindPopup(feature.properties.name);
-			layer.on('click', function (e){window.alert(feature.properties.name);});
-		
-	}
-	
-	</script>
 
 
   <div id="map-title">Veuillez entrer votre adresse de livraison<br></br>Selectionnez le directement sur la carte</div>
@@ -37,9 +27,19 @@
   <script src="js/main.js"></script>
   <script src="js/coucheUne.js"></script>
   
-  
-<script>
-	
+  	<script>
+	var nom='';
+	var coordonnee='';
+		function onEachFeature(feature, layer) {
+			layer.bindPopup(feature.properties.name);
+			layer.on('click', function (e){
+											nom = feature.properties.name;
+											coordonnee= feature.geometry.coordinates;
+											//window.alert(nom);
+											//window.alert(coordonnee);
+										  });
+	}
+
 	L.geoJSON(test, {
 		onEachFeature: onEachFeature
 	}).addTo(map);
