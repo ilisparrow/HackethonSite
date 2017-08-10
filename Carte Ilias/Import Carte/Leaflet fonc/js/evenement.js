@@ -4,9 +4,9 @@
 			layer.bindPopup(feature.properties.name);
 			layer.on('click', function (e){
 											nom = feature.properties.name;
-											coordonnee= feature.geometry.coordinates;
-											//window.alert(nom);
-											//window.alert(coordonnee);
+                                            coordonnee=feature.geometry.coordinates;
+											console.log(nom);
+											console.log(coordonnee);
 										  });
 	}
 
