@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+		<head>
+		<meta charset="UTF-8"/>
+        <link rel="stylesheet" href="recherche_formulaire.css"/>
+	</head>
+        
+	<body>
+
+	<b> RECHERCHE </b> <br/>
+	<table><tr><td>
+
+<form  method="POST" action="recherche_articles-ac-condition.php">
+
+	Mot clés : <input type="text" name="mot cle"/><br/>
+	
+	Villes:<select name= "region">
+						<option>	</option>
+						<option>Bejaia</option>
+						<option>tizi</option>
+						
+				</select></br>
+	<input type="submit" value="envoyer"/></form>
+<form method="GET" action='toutes_annonces.php'>
+	<input type="submit" value="afficher tous les article"/>
+</form>
+	</td></tr>
+	</table></br>
+	
+	<section><a href="connexion.php" >
+		CONNEXION
+	</a>
+	</section></br>
+    
+	<section>
+	<a href="inscription.php" >
+		INSCRIPTION
+	</a>
+	</section>
+	</body></html>

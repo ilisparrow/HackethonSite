@@ -1,0 +1,1 @@
+@font-face {        font-family: 'AlexBrush-Regular';        src: url('AlexBrush-Regular.ttf');    }h1{color:#FF0066; font-size:46px; font-family:AlexBrush-Regular;text-align:center;border: 4px #11D1F7 groove;border-radius: 20px / 10px; margin-bottom:-30px;}div{   font-size:27px;    font-family:AlexBrush-Regular;    text-align:center;    }

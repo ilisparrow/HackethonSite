@@ -1,0 +1,32 @@
+
+
+@font-face {
+    
+    font-family: 'KaushanScript-Regular';
+    
+    src: url('KaushanScript-Regular.otf');
+    
+}
+
+
+
+
+b{
+    color:black; font-size:33px; font-family:KaushanScript-Regular;text-align:center;border-radius: 20px / 10px;
+}
+
+
+table{
+    border=3px;
+    Background:#FF0F4B;
+    border-radius: 20px / 10px;
+    
+}
+
+a:hover
+{
+    color:red;
+    font-family:KaushanScript-Regular;
+    
+}
+
